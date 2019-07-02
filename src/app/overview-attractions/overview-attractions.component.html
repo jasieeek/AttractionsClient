@@ -1,0 +1,15 @@
+<div class="content">
+  <h2>Wybierz atrakcje</h2>
+  <form (ngSubmit)="onSubmit()">
+    <div class="form-group">
+      <select name="attractionName" required>
+        <option value="" disabled selected>Select attraction</option>
+        <option *ngFor="let attraction of attractions" value="{{attraction.name}}">
+          {{attraction.name}}
+        </option>
+      </select>
+      <br><br>
+    <button type="submit">Kup teraz</button>
+    </div>
+  </form>
+</div>

@@ -1,0 +1,9 @@
+p {
+  font-size: 50px;
+  float: left;
+  margin-left: 10%;
+  padding: 2%;
+  border-radius: 50px;
+  background-color: rgba(20,20,20, 0.7);
+  color: aqua;
+}
