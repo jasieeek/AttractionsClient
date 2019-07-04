@@ -8,6 +8,9 @@ import { AboutUsComponent } from './about-us/about-us.component';
 import { StartingViewComponent } from './starting-view/starting-view.component';
 import { OverviewAttractionsComponent } from './overview-attractions/overview-attractions.component';
 import {FormsModule} from '@angular/forms';
+import { OfferComponent } from './offer/offer.component';
+import { ContactComponent } from './contact/contact.component';
+import { LoginComponent } from './login/login.component';
 
 
 @NgModule({
@@ -15,7 +18,10 @@ import {FormsModule} from '@angular/forms';
     AppComponent,
     AboutUsComponent,
     StartingViewComponent,
-    OverviewAttractionsComponent
+    OverviewAttractionsComponent,
+    OfferComponent,
+    ContactComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
